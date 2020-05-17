@@ -22,3 +22,8 @@ source map代码错误跟踪器：inline-source-map
 
 webpack-dev-server 为你提供了一个简单的 web 服务器:
 npm install --save-dev webpack-dev-server
+
+抽离css插件安装：npm install mini-css-extract-plugin -D
+npm install postcss-loader autoprefixer -D 
+npm install optimize-css-assets-webpack-plugin -D 
+npm install uglifyjs-webpack-plugin -D
